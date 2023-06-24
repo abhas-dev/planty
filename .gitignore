@@ -1,0 +1,13 @@
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/themes/*/node_modules/
+wp-content/plugins/*/node_modules/
+.htaccess
+wp-content/upgrade/
+wp-content/advanced-cache.php
+.idea/
+license.txt
+readme.html
+wp-content/plugins/hello.php
+wp-content/plugins/akismet/
