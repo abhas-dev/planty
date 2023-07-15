@@ -17,18 +17,19 @@ get_header(); ?>
 <!--                <img class="hero__img" src="--><?php //= get_theme_file_uri('assets/img/hero.png') ?><!--" alt="canette planty">-->
             </div>
 
-            <div class="wave">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <filter id="shadow" color-interpolation-filters="sRGB">
-                        <feDropShadow dx="0" dy="0" stdDeviation="20" flood-color="#DC9F96" />
-                    </filter>
 
-                    <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="with-shadow"></path>
-                    <!--                    <path class="st0" d="M1920,25.89v30.22c0,0-309.22,27.56-844.33,27.56S0,54.78,0,54.78V28.56L1920,25.89z"/>-->
-                    <!--                    <path class="st1" d="M1920,0v30.22c0,0-309.22,27.56-844.33,27.56S0,28.89,0,28.89V2.67L1920,0z"/>-->
-                </svg>
-            </div>
         </section>
+
+        <div class="wave">
+            <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 1440 75" style="enable-background:new 0 0 1440 75;" xml:space="preserve">
+                <g>
+                    <path class="st0" d="M722.5,58.36C1440,58.36,1440,0,1440,0H0C0,0,5,58.36,722.5,58.36z"/>
+                    <path class="st1" d="M722.5,58.36C5,58.36,0,0,0,0v10c0,0,5,56.99,722.5,56.99S1440,10,1440,10V0C1440,0,1440,58.36,722.5,58.36z"
+                    />
+                </g>
+            </svg>
+        </div>
 
         <section class="product-description">
             <h2><?php the_field('homepage_product_description_title'); ?></h2>
@@ -83,12 +84,6 @@ get_header(); ?>
             </div>
 
             <a href="<?= get_permalink(get_page_by_path('commande')); ?>" class="btn btn-primary flavours__btn"><?php the_field('homepage_flavours_cta'); ?></a>
-
-            <div class="wave">
-                <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"></path>
-                </svg>
-            </div>
         </section>
 
         <section class="testimonial">
