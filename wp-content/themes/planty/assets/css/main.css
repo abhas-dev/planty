@@ -831,6 +831,10 @@ input::-webkit-inner-spin-button {
         height: 120px;
         width: 120px;
     }
+
+    .about-us::after {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 860px) {
